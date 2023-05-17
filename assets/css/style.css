@@ -848,3 +848,9 @@ h4{
 .copyright p a {
     color: #f38181;
 }
+
+.count_col {
+    width: 20%;
+    float: left;
+    overflow: hidden;
+}

@@ -28,9 +28,19 @@ $(document).ready(function(){
 	// Client Carousel
 	$('.single-client-img').owlCarousel({
 		loop:true,
-		items:6,
 		autoplay:true,
-		margin:20
+		margin:20,
+		responsive :{
+			0:{
+				items:1
+			},
+			767:{
+				items:3
+			},
+			990:{
+				items:6
+			}
+		}
 	});
 		
 	// Magnific PopUp
